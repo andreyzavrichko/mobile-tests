@@ -1,6 +1,18 @@
 # Приложение color note
+## :cherry_blossom:	Содержание
+> ➠ [Используемые технологии](#Используемые-технологии)
+>
+> ➠ [Описание проекта](#Описание-проекта)
+>
+> ➠ [Особенности реализации тестового проекта](#Особенности-реализации-тестового-проекта)
+>
+> ➠ [Список проверок](#Список-проверок)
+>
+> ➠ [Ограничения проекта](#Ограничения-проекта)
+>
+> ➠ [Этапы реализации](#Этапы-реализации)
+
 ## Используемые технологии
-<img style="margin-right: 30px" src="/design/icons/Java.png"><img style="margin-right: 30px" src="/design/icons/Gradle.png"><img style="margin-right: 30px" style="margin-right: 30px" src="/design/icons/Intelij_IDEA.png"><img style="margin-right: 30px" src="/design/icons/Selenide.png"><img style="margin-right: 30px" src="/design/icons/Selenoid.png"><img style="margin-right: 30px" src="/design/icons/JUnit5.png"><img style="margin-right: 30px" src="/design/icons/Allure_Report.png"><img style="margin-right: 30px" src="/design/icons/AllureTestOps.png"><img style="margin-right: 30px" src="/design/icons/appium.png"><img style="margin-right: 30px" src="/design/icons/androidstudio.png"></br>
 ![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)      ![This is an image](/design/icons/Intelij_IDEA.png)      ![This is an image](/design/icons/Selenide.png)      ![This is an image](/design/icons/Selenoid.png)      ![This is an image](/design/icons/JUnit5.png)      ![This is an image](/design/icons/Allure_Report.png)      ![This is an image](/design/icons/AllureTestOps.png)      ![This is an image](/design/icons/appium.png)       ![This is an image](/design/icons/androidstudio.png)
 ## Описание проекта
 - Учебный проект реализации автотестирования мобильного приложения.<br/>

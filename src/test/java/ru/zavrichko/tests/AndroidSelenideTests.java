@@ -3,6 +3,11 @@ package ru.zavrichko.tests;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -12,6 +17,10 @@ import static io.qameta.allure.Allure.step;
 @Tag("selenide")
 public class AndroidSelenideTests extends TestBase {
     @Test
+    @Feature("Authorization")
+    @Story("Onboarding")
+    @DisplayName("Check onboarding")
+    @Severity(SeverityLevel.BLOCKER)
     void onboardingTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -36,6 +45,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Note")
+    @Story("Note")
+    @DisplayName("Check create note")
+    @Severity(SeverityLevel.BLOCKER)
     void createNoteTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -61,6 +74,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Checklist")
+    @Story("Checklist")
+    @DisplayName("Check create check list")
+    @Severity(SeverityLevel.BLOCKER)
     void createChecklistTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -91,13 +108,16 @@ public class AndroidSelenideTests extends TestBase {
 
 
     @Test
+    @Feature("Calendar")
+    @Story("Calendar")
+    @DisplayName("Check calendar")
+    @Severity(SeverityLevel.NORMAL)
     void checkCalendarTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
 
         step("Skip onboarding page", () ->
                 $(AppiumBy.id("com.socialnmobile.dictapps.notepad.color.note:id/btn_start_skip")).click());
-
 
         step("Tap calendar button", () ->
                 $(AppiumBy.id("com.socialnmobile.dictapps.notepad.color.note:id/page_calendar")).click());
@@ -108,6 +128,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Search")
+    @Story("Search")
+    @DisplayName("Check search")
+    @Severity(SeverityLevel.NORMAL)
     void checkSearchTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -124,6 +148,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Menu")
+    @Story("Menu")
+    @DisplayName("Check menu")
+    @Severity(SeverityLevel.MINOR)
     void checkMenuTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -140,6 +168,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Color")
+    @Story("Color")
+    @DisplayName("Check color")
+    @Severity(SeverityLevel.MINOR)
     void colorTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -159,6 +191,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("More")
+    @Story("More")
+    @DisplayName("Check more button")
+    @Severity(SeverityLevel.MINOR)
     void moreTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -178,6 +214,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Archive")
+    @Story("Archive")
+    @DisplayName("Check archive")
+    @Severity(SeverityLevel.NORMAL)
     void archiveTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -197,6 +237,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Trash")
+    @Story("Trash")
+    @DisplayName("Check trash")
+    @Severity(SeverityLevel.CRITICAL)
     void trashTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -216,6 +260,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Settings")
+    @Story("Settings")
+    @DisplayName("Check settings")
+    @Severity(SeverityLevel.CRITICAL)
     void settingsTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -235,6 +283,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Theme")
+    @Story("Theme")
+    @DisplayName("Check theme")
+    @Severity(SeverityLevel.CRITICAL)
     void themeTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -254,6 +306,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Tutorial")
+    @Story("Tutorial")
+    @DisplayName("Check tutorial")
+    @Severity(SeverityLevel.CRITICAL)
     void tutorialTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -274,6 +330,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Sort")
+    @Story("Sort")
+    @DisplayName("Check sorting")
+    @Severity(SeverityLevel.NORMAL)
     void sortTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -294,6 +354,10 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
+    @Feature("Note")
+    @Story("Note")
+    @DisplayName("Check add note")
+    @Severity(SeverityLevel.BLOCKER)
     void addNoteTest() {
         step("Allow access", () ->
                 $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
@@ -317,8 +381,4 @@ public class AndroidSelenideTests extends TestBase {
             $(AppiumBy.id("com.socialnmobile.dictapps.notepad.color.note:id/content_container")).shouldBe(Condition.visible);
         });
     }
-
-
-//    }
 }
-

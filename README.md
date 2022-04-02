@@ -1,19 +1,19 @@
 # Приложение color note
 ## Используемые технологии
-![This is an image](/design/icons/Java.png)   ![This is an image](/design/icons/Gradle.png)   ![This is an image](/design/icons/Intelij_IDEA.png)   ![This is an image](/design/icons/Selenide.png)   ![This is an image](/design/icons/Selenoid.png)   ![This is an image](/design/icons/JUnit5.png)   ![This is an image](/design/icons/Allure_Report.png)   ![This is an image](/design/icons/AllureTestOps.png)   ![This is an image](/design/icons/appium.png)    ![This is an image](/design/icons/androidstudio.png)
+![This is an image](/design/icons/Java.png)      ![This is an image](/design/icons/Gradle.png)      ![This is an image](/design/icons/Intelij_IDEA.png)      ![This is an image](/design/icons/Selenide.png)      ![This is an image](/design/icons/Selenoid.png)      ![This is an image](/design/icons/JUnit5.png)      ![This is an image](/design/icons/Allure_Report.png)      ![This is an image](/design/icons/AllureTestOps.png)      ![This is an image](/design/icons/appium.png)       ![This is an image](/design/icons/androidstudio.png)
 ## Описание проекта
 Учебный проект реализации автотестирования мобильного приложения.<br/></br>
 В качестве объекта тестирование выбрано мобильное приложение приложение для учета личных заметок **Color-note**.<br/></br>
 ColorNote — это простой блокнот. Он предоставляет возможность легкого и простого пользования блокнотом при написании заметок, напоминаний, email, сообщений, перечней дел и покупок.
 <br/></br>
 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.socialnmobile.dictapps.notepad.color.note"> Подробнее о приложении по ссылке</a></br></br>
-<img src="/design/images/page1.png" wight=70px heigth=100px> <img src="/design/images/page2.png" wight=70px heigth=100px> </br>
-<img src="/design/images/page4.png" wight=70px heigth=100px> <img src="/design/images/page5.png" wight=70px heigth=100px> </br>
+<img src="/design/images/page1.png"> <img src="/design/images/page2.png"> </br>
+<img src="/design/images/page4.png"> <img src="/design/images/page5.png"> </br>
 
 #### Особенности реализации тестового проекта
-Были созданы тест-кейсы в Allure Test Ops для дальнейшей автоматизации.<br/></br>
-Для описания шагов тест-кейсов в java-коде использован степовой подход.<br/></br>
-Реализована возможность настройки параметров запуска через Jenkins
+- [x] Были созданы тест-кейсы в **Allure TestOps** для дальнейшей автоматизации.<br/></br>
+- [x] Для описания шагов тест-кейсов в java-коде использован степовой подход.<br/></br>
+- [x] Реализована возможность настройки параметров запуска через Jenkins
 
 ## Список проверок
 #### Список проверок, реализованных в автотестах
@@ -54,11 +54,11 @@ gradle clean local
 - Папка **Tests** - файлы с тестами
 - Папка **apk** - файл с тестируемым приложением
 
-<img src="/design/images/str.png" wight=70px heigth=100px>
+<img src="/design/images/str.png">
 
 ### 3. Настройка сборки
 <a target="_blank" href="https://jenkins.autotests.cloud/job/10-azavrichko-diplom_mobile"> Ссылка на сборку в Jenkins</a><br/><br/> 
-<img src="/design/images/jenkins.png" wight=70px heigth=100px>
+<img src="/design/images/jenkins.png">
 
 
 ### 4. Результат выполнения

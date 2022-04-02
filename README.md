@@ -6,7 +6,7 @@
 ColorNote — это простой блокнот. Он предоставляет возможность легкого и простого пользования блокнотом при написании заметок, напоминаний, email, сообщений, перечней дел и покупок.
 <br/></br>
 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.socialnmobile.dictapps.notepad.color.note"> Подробнее о приложении по ссылке</a></br>
-<img src="/design/images/page1.png" wight=70px heigth=100px> <img src="/design/images/page2.png" wight=70px heigth=100px> <img src="/design/images/page3.png" wight=70px heigth=100px></br>
+<img src="/design/images/page1.png" wight=70px heigth=100px> <img src="/design/images/page2.png" wight=70px heigth=100px> </br>
 <img src="/design/images/page4.png" wight=70px heigth=100px> <img src="/design/images/page5.png" wight=70px heigth=100px> </br>
 
 #### Особенности реализации тестового проекта

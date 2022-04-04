@@ -79,7 +79,7 @@ gradle clean test -DdeviceHost=emulation
 
 
 ### 4. Результат выполнения
-Итоговые результаты сгруппированы в Dashboard для удоства локализации дефектов по основным функциям приложения.<br/><br/>  
+Итоговые результаты сгруппированы в Dashboard для удобства локализации дефектов по основным функциям приложения.<br/><br/>  
 <img src="/design/images/dashboard1.png">
 <img src="/design/images/dashboard2.png">
 

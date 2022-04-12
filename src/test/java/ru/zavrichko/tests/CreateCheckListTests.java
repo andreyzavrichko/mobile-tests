@@ -23,7 +23,7 @@ public class CreateCheckListTests extends TestBase {
     @Severity(SeverityLevel.BLOCKER)
     void onboardingTest() {
         step("Allow access", () ->
-                $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
+            $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button")).click());
         step("First onboarding page", () -> {
             $(AppiumBy.id("com.socialnmobile.dictapps.notepad.color.note:id/textTitle"))
                     .shouldHave(Condition.text("Welcome to ColorNote"));

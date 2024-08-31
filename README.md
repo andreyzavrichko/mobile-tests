@@ -16,7 +16,7 @@
 ![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)      ![This is an image](/design/icons/Intelij_IDEA.png)      ![This is an image](/design/icons/Selenide.png)      ![This is an image](/design/icons/Selenoid.png)      ![This is an image](/design/icons/JUnit5.png)      ![This is an image](/design/icons/Allure_Report.png)      ![This is an image](/design/icons/AllureTestOps.png)      ![This is an image](/design/icons/appium.png)       ![This is an image](/design/icons/androidstudio.png)
 ## Описание проекта
 - Учебный проект реализации автотестирования мобильного приложения.<br/>
-- В качестве объекта тестирование выбрано мобильное приложение приложение для учета личных заметок **Color-note**.<br/>
+- В качестве объекта тестирование выбрано мобильное приложение для учета личных заметок **Color-note**.<br/>
 - ColorNote — это простой блокнот. Он предоставляет возможность легкого и простого пользования блокнотом при написании заметок, напоминаний, email, сообщений, перечней дел и покупок. <br/>
 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.socialnmobile.dictapps.notepad.color.note"> Подробнее о приложении по ссылке</a></br></br>
 <img src="/design/images/page1.png"> <img src="/design/images/page2.png"> </br>
